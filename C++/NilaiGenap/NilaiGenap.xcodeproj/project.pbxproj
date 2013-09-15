@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1B3ACF617E489BF004E5F11 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F1B3ACF517E489BF004E5F11 /* main.cpp */; };
+		F1B3ACF817E489BF004E5F11 /* NilaiGenap.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F1B3ACF717E489BF004E5F11 /* NilaiGenap.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F1B3ACF017E489BF004E5F11 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F1B3ACF817E489BF004E5F11 /* NilaiGenap.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F1B3ACF217E489BF004E5F11 /* NilaiGenap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NilaiGenap; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B3ACF517E489BF004E5F11 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F1B3ACF717E489BF004E5F11 /* NilaiGenap.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NilaiGenap.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1B3ACEF17E489BF004E5F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1B3ACE917E489BF004E5F11 = {
+			isa = PBXGroup;
+			children = (
+				F1B3ACF417E489BF004E5F11 /* NilaiGenap */,
+				F1B3ACF317E489BF004E5F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1B3ACF317E489BF004E5F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1B3ACF217E489BF004E5F11 /* NilaiGenap */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1B3ACF417E489BF004E5F11 /* NilaiGenap */ = {
+			isa = PBXGroup;
+			children = (
+				F1B3ACF517E489BF004E5F11 /* main.cpp */,
+				F1B3ACF717E489BF004E5F11 /* NilaiGenap.1 */,
+			);
+			path = NilaiGenap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1B3ACF117E489BF004E5F11 /* NilaiGenap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B3ACFB17E489BF004E5F11 /* Build configuration list for PBXNativeTarget "NilaiGenap" */;
+			buildPhases = (
+				F1B3ACEE17E489BF004E5F11 /* Sources */,
+				F1B3ACEF17E489BF004E5F11 /* Frameworks */,
+				F1B3ACF017E489BF004E5F11 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NilaiGenap;
+			productName = NilaiGenap;
+			productReference = F1B3ACF217E489BF004E5F11 /* NilaiGenap */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1B3ACEA17E489BF004E5F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Rumahproject.com;
+			};
+			buildConfigurationList = F1B3ACED17E489BF004E5F11 /* Build configuration list for PBXProject "NilaiGenap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F1B3ACE917E489BF004E5F11;
+			productRefGroup = F1B3ACF317E489BF004E5F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1B3ACF117E489BF004E5F11 /* NilaiGenap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1B3ACEE17E489BF004E5F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B3ACF617E489BF004E5F11 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1B3ACF917E489BF004E5F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F1B3ACFA17E489BF004E5F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F1B3ACFC17E489BF004E5F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1B3ACFD17E489BF004E5F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1B3ACED17E489BF004E5F11 /* Build configuration list for PBXProject "NilaiGenap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B3ACF917E489BF004E5F11 /* Debug */,
+				F1B3ACFA17E489BF004E5F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B3ACFB17E489BF004E5F11 /* Build configuration list for PBXNativeTarget "NilaiGenap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1B3ACFC17E489BF004E5F11 /* Debug */,
+				F1B3ACFD17E489BF004E5F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1B3ACEA17E489BF004E5F11 /* Project object */;
+}

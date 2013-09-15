@@ -1,0 +1,20 @@
+01 Masa Depan
+02 Komputer Berjalan
+03 Komputer Menangis
+04 Internet
+05 Pemrograman C++
+06 Algoritma Pemrograman
+07 Belajar Pemrograman C++
+08 Bagaimana Menjadi Master C++
+09 Tutorial Troubleshooting Komputer
+10 Membuat Virus
+11 Kamus Digital
+12 Sistem Digital
+13 Kalkulus 1
+14 Fisika Dasar
+15 ESQ
+16 Metode Penulisan Ilmiah
+17 Konsep Teknologi
+18 Pengantar Teknologi Informasi
+19 Sistem Operasi
+20 Sistem Komputer
